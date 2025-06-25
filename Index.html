@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Landing Page</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo">Rubens Daniel Rocha Sobrinho</div>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <div class="menu" id="menu">
+          <a href="#sobre">Sobre</a>
+          <a href="#recursos">Recursos</a>
+          <a href="#contato">Contato</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+ 
+  <section class="hero">
+    <div class="container">
+      <h1>Bem-vindo ao meu site</h1>
+      <p>Apresente aqui o seu produto, serviço ou ideia de forma clara e objetiva.</p>
+      <button><a href="https://www.youtube.com/shorts/gmDVsKIvVc8?feature=share" target="_blank">Clique aqui</a></button>
+    </div>
+  </section>
+ 
+  <section id="sobre">
+    <div class="container">
+      <h2>Sobre Mim</h2>
+      <p>Meu nome é Rubens tenho 17 anos , atualmente estou cursando ciencia de dados no ensino medio.   </p>
+    </div>
+  </section>
+ 
+  <section id="recursos">
+    <div class="container">
+      <h2>Recursos</h2>
+      <div class="grid">
+        <div class="grid-item">
+          <h3>Recurso 1</h3>
+          <p>Ingles básico.</p>
+        </div>
+        <div class="grid-item">
+          <h3>Recurso 2</h3>
+          <p>Rápido aprendizado.</p>
+        </div>
+        <div class="grid-item">
+          <h3>Recurso 3</h3>
+          <p>Resiliência</p>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <section id="contato">
+    <div class="container">
+      <h2>Contato</h2>
+      <p>Email: rubensdaniel159@gmail.com</p>
+      <p>Telefone: (48) 99181-5822</p>
+    </div>
+  </section>
+ 
+  <footer>
+    <p>&copy; 2025 MinhaMarca. Todos os direitos reservados.</p>
+  </footer>
+ 
+  <script>
+    function toggleMenu() {
+      document.getElementById("menu").classList.toggle("active");
+    }
+  </script>
+</body>
+</html>
